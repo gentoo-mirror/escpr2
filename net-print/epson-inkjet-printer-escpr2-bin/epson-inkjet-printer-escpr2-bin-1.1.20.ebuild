@@ -15,6 +15,7 @@ SRC_URI="x86? ( https://download3.ebz.epson.net/dsc/${DSC_x86}/epson-inkjet-prin
 
 LICENSE="GPL-2"
 SLOT="0"
+RESTRICT="mirror"
 KEYWORDS="~x86 ~amd64"
 IUSE=""
 

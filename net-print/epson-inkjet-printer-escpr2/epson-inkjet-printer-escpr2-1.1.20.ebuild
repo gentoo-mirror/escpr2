@@ -10,6 +10,7 @@ HOMEPAGE="http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
 SRC_URI="https://download3.ebz.epson.net/dsc/${DSC_src}/epson-inkjet-printer-escpr2-${PV}.tar.gz"
 LICENSE="GPL-2"
 SLOT="0"
+RESTRICT="mirror"
 KEYWORDS="amd64 x86 ~arm ~arm64"
 IUSE="escprlib"
 
