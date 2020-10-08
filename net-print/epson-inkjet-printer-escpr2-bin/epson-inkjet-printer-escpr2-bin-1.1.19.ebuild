@@ -13,7 +13,7 @@ HOMEPAGE="http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
 SRC_URI="x86? ( https://download3.ebz.epson.net/dsc/${DSC_x86}/epson-inkjet-printer-escpr2-${PV}-1lsb3.2.i486.rpm )
          amd64? ( https://download3.ebz.epson.net/dsc/${DSC_amd64}/epson-inkjet-printer-escpr2-${PV}-1lsb3.2.x86_64.rpm )"
 
-LICENSE="GPL-2"
+LICENSE="EPSON-EULA LGPL-2.1"
 SLOT="0"
 KEYWORDS="~x86 ~amd64"
 IUSE=""
