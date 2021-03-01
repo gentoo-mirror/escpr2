@@ -9,7 +9,7 @@ DSC_x86="f/03/00/12/49/67/b72ceb1eb8844611bdd5659c90e7bab06e4aaf59"
 DSC_amd64="f/03/00/12/49/67/1145763aefd5e9fbb8dbd2dfb49cf9d6a09de79e"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver BINARY PACKAGE"
-HOMEPAGE="http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
+HOMEPAGE="https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
 SRC_URI="x86? ( https://download3.ebz.epson.net/dsc/${DSC_x86}/epson-inkjet-printer-escpr2-${PV}-1lsb3.2.i486.rpm )
          amd64? ( https://download3.ebz.epson.net/dsc/${DSC_amd64}/epson-inkjet-printer-escpr2-${PV}-1lsb3.2.x86_64.rpm )"
 LICENSE="EPSON-EULA LGPL-2.1"

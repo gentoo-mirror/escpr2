@@ -5,11 +5,11 @@ EAPI=6
 
 inherit rpm
 
-DSC_x86="f/03/00/12/46/43/bc5e8e6a7ea53c7d6991ab749d0c42d4c4d46e6c"
-DSC_amd64="f/03/00/12/46/43/fe98c18e9e8066204a2023b41238d481154dca73"
+DSC_x86="f/03/00/12/53/90/2340ec09e8b0d526f90d603a57219c2770a11a55"
+DSC_amd64="f/03/00/12/53/90/f423b2c2518adf4c2a3c0008c8bfdec9ac76260b"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver BINARY PACKAGE"
-HOMEPAGE="http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
+HOMEPAGE="https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
 SRC_URI="x86? ( https://download3.ebz.epson.net/dsc/${DSC_x86}/epson-inkjet-printer-escpr2-${PV}-1lsb3.2.i486.rpm )
          amd64? ( https://download3.ebz.epson.net/dsc/${DSC_amd64}/epson-inkjet-printer-escpr2-${PV}-1lsb3.2.x86_64.rpm )"
 LICENSE="EPSON-EULA LGPL-2.1"
