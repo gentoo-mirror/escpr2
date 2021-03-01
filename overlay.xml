@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+<repo quality="testing" status="official">
+	<name>escpr2</name>
+	<description>EPSON ESC/P-R2 Inkjet Printer repository</description>
+	<homepage>https://gitlab.com/at.gentoo.repo/epson-inkjet-printer-escpr2</homepage>
+	<owner type="person">
+		<email>andreas.thalhammer@linux.com</email>
+		<name>Andreas Thalhammer</name>
+	</owner>
+	<source type="git">https://gitlab.com/at.gentoo.repo/epson-inkjet-printer-escpr2</source>
+</repo>
