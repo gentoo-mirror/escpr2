@@ -3,10 +3,10 @@
 
 EAPI=6
 
-DSC_src="f/03/00/12/46/42/9d391afd24a78363da9313f33a93c18d1a418d7c"
+DSC_src="f/03/00/12/53/89/942d82708b310bf5842b6e4d812591eea99c23ed"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver"
-HOMEPAGE="http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
+HOMEPAGE="https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
 SRC_URI="https://download3.ebz.epson.net/dsc/${DSC_src}/epson-inkjet-printer-escpr2-${PV}.tar.gz"
 LICENSE="EPSON-EULA LGPL-2.1"
 SLOT="0"
