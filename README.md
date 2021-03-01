@@ -71,3 +71,5 @@ Resources
 
 - <https://bugs.gentoo.org/662364>
 - <https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX>
+- <https://wiki.archlinux.org/index.php/CUPS/Printer-specific_problems#Epson>
+- <https://aur.archlinux.org/packages/epson-inkjet-printer-escpr2/>
