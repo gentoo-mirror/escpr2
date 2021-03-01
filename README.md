@@ -32,7 +32,7 @@ Running `emerge --sync escpr2` will sync only this repository. To remove it, sim
 
 ### repos.conf
 
-This is the manual method. Just copy `escpr2.conf` to `/etc/portage/repos/` and modify it for your configuration, e.g. using nano:
+This is the manual method. Just copy `escpr2.conf` to `/etc/portage/repos.conf/` and modify it for your configuration, e.g. using nano:
 
     wget https://gitlab.com/at.gentoo.repo/epson-inkjet-printer-escpr2/-/raw/master/escpr2.conf -O /etc/portage/repos.conf/escpr2.conf
     nano /etc/portage/repos.conf/escpr2.conf
