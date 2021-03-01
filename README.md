@@ -69,5 +69,5 @@ Only bugs (and enhancements or suggestions) concerning the ebuilds should be rep
 Resources
 ---------
 
-- <https://bugs.gentoo.org/662364)>
+- <https://bugs.gentoo.org/662364>
 - <https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX>
