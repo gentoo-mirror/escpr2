@@ -42,7 +42,7 @@ Especially the `location` field must be set correctly, but disabling `auto-sync`
 How to add the license
 ----------------------
 
-The `EPSON-EULA` must be an accepted license. After reading it, you may add it to your `make.conf`. Please consult the [Gentoo Wiki on make.conf](https://wiki.gentoo.org/wiki//etc/portage/make.conf#ACCEPT_LICENSE) on how to do that.
+The `EPSON-EULA` must be an accepted license. After reading it you may add it to your `make.conf`. Please consult the [Gentoo Wiki on make.conf](https://wiki.gentoo.org/wiki//etc/portage/make.conf#ACCEPT_LICENSE) on how to do that.
 
 How to install the printer driver
 ---------------------------------
@@ -64,7 +64,7 @@ The binary package and the source ebuild cannot be installed at the same time. A
 Bugs
 ----
 
-Only bugs (and enhancements or suggestions) concerning the ebuilds should be reported to [Gentoo Bug #662364](https://bugs.gentoo.org/662364). Problems with the driver must be reported upstream. From ./AUTHORS in the source tarball: Seiko Epson Corporation <linux-printer@epson.jp>.
+Only bugs (and enhancements or suggestions) concerning the ebuilds should be reported to [Gentoo Bug #662364](https://bugs.gentoo.org/662364). Problems with the driver must be reported upstream, from ./AUTHORS in the source tarball: Seiko Epson Corporation <linux-printer@epson.jp>.
 
 Resources
 ---------
