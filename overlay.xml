@@ -3,7 +3,7 @@
 <repositories xmlns="" version="1.0">
 <repo quality="experimental" status="unofficial">
 	<name>escpr2</name>
-	<description lang="en">EPSON ESC/P-R2 Inkjet Printer repository</description>
+	<description lang="en">Epson Inkjet Printer Driver 2 (ESC/P-R) repository</description>
 	<homepage>https://gitlab.com/at.gentoo.repo/epson-inkjet-printer-escpr2</homepage>
 	<owner type="person">
 		<email>andreas.thalhammer@linux.com</email>
