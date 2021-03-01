@@ -3,7 +3,7 @@
 
 EAPI=6
 
-DESCRIPTION="Compatibility with lsb binary programs"
+DESCRIPTION="Compatibility with LSB (Linux Standard Base) for binary programs"
 
 LICENSE="libstdc++"
 SLOT="3"

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>andreas.thalhammer@linux.com</email>
+    <name>Andreas Thalhammer</name>
+  </maintainer>
+  <longdescription>This ebuild will ensure LSB 3 compatibility for
+binary software requiring the dynamic loader/linker to be available
+as /lib/ld-lsb.so.3 by providing a symlink from glibc.
+E.g. refer to https://bugs.gentoo.org/348911
+</longdescription>
+</pkgmetadata>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>mailto:linux-printer@epson.jp</bugs-to>
+    <doc>https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX</doc>
+  </upstream>
+  <maintainer type="person">
+    <email>andreas.thalhammer@linux.com</email>
+    <name>Andreas Thalhammer</name>
+  </maintainer>
+  <longdescription>Epson Inkjet Printer Driver 2 (ESC/P-R) for Linux
+This software is a filter program used with Common UNIX Printing
+System (CUPS) from the Linux. This can supply the high quality print
+with Seiko Epson Color Ink Jet Printers.
+This is the binary package. It requires an LSB-3.2 compliant system.</longdescription>
+</pkgmetadata>
