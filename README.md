@@ -8,7 +8,7 @@ The name of this repository is **Epson Inkjet Printer Driver 2 (ESC/P-R)** repos
 
 For the owners of certain Epson printers the open source **Printer Driver 2 (ESC/P-R) for Linux** or **`escpr2`** will enable printing with LPR/CUPS (Common Unix Printing System). While the [`net-print/epson-inkjet-printer-escpr`](https://packages.gentoo.org/packages/net-print/epson-inkjet-printer-escpr) package is in the official Gentoo [portage](https://wiki.gentoo.org/wiki/Portage) tree, `net-print/epson-inkjet-printer-escpr2` is not.
 
-A complete list of supported printers is in the `./ppd` directory of the source file, among them are e.g. certain Epson WorkForce and EcoTank series printers.
+A complete list of supported printer series is in the `./ppd` directory of the source file, among them e.g. Epson WorkForce and EcoTank series printers.
 
 The ebuild will download the files directly from the *Seiko Epson Corporation*. Because Epson removes old versions upon release of a new one, **older ebuilds will not work** unless you already obtained the required files and have them available in your [distfiles](https://wiki.gentoo.org/wiki/DISTDIR) directory.
 
@@ -17,10 +17,12 @@ Please note that Epson releases the driver unter the LGPL-2.1 and an EULA, which
 Brief history
 -------------
 
-The full history can be read in [Gentoo Bug #662364](https://bugs.gentoo.org/662364). In short: Because an ebuild for `net-print/epson-inkjet-printer-escpr2` was missing, an existing ebuild already written by Mike Gilbert (floppym) was used and updated.
+The full history can be found in [Gentoo Bug #662364](https://bugs.gentoo.org/662364). In short: Because an ebuild for `net-print/epson-inkjet-printer-escpr2` was missing in the tree, an existing but too old ebuild already written by Mike Gilbert (floppym) was used and updated.
 
 How to add the repository
 -------------------------
+
+Please read the Gentoo Wiki [ebuild repository](https://wiki.gentoo.org/wiki/Ebuild_repository) page before you proceed, especially section [best practices](https://wiki.gentoo.org/wiki/Ebuild_repository#Best_practices)...
 
 ### eselect-repository
 
@@ -61,10 +63,15 @@ The binary package and the source ebuild cannot be installed at the same time. A
 
     emerge -a net-print/epson-inkjet-printer-escpr2-bin
 
+What to do after installation
+-----------------------------
+
+Refer to the README file in `/usr/share/doc`. In short: Add the printer to your CUPS configuration. There are mupltiple ways to do this, one of which is to navigate to http://localhost:631/. Select model "EPSON-ESC/P-R Printer Driver for Linux" and the correct printer series should be available for selection.
+
 Bugs
 ----
 
-Only bugs (and enhancements or suggestions) concerning the ebuilds should be reported to [Gentoo Bug #662364](https://bugs.gentoo.org/662364). Problems with the driver must be reported upstream, from ./AUTHORS in the source tarball: Seiko Epson Corporation <linux-printer@epson.jp>.
+Only bugs (and enhancements or suggestions) concerning the ebuilds should be reported, [Gentoo Bug #662364](https://bugs.gentoo.org/662364). Problems with the driver must be reported upstream, from ./AUTHORS in the source tarball: Seiko Epson Corporation <linux-printer@epson.jp>.
 
 Resources
 ---------
