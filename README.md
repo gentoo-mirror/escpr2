@@ -6,7 +6,7 @@ This repository
 
 The name of this repository is **Epson Inkjet Printer Driver 2 (ESC/P-R)** repository, in short **escpr2**.
 
-For the owners of certain Epson printers the open source **Printer Driver 2 (ESC/P-R) for Linux** or **`escpr2`** will enable printing with LPR/CUPS (Common Unix Printing System). While the [`net-print/epson-inkjet-printer-escpr`](https://packages.gentoo.org/packages/net-print/epson-inkjet-printer-escpr) package is in the official Gentoo [portage](https://wiki.gentoo.org/wiki/Portage) tree, `net-print/epson-inkjet-printer-escpr2` is not.
+For the owners of certain Epson printers the open source **Printer Driver 2 (ESC/P-R) for Linux** or **`escpr2`** will enable printing with CUPS (Common Unix Printing System). While the [`net-print/epson-inkjet-printer-escpr`](https://packages.gentoo.org/packages/net-print/epson-inkjet-printer-escpr) package is in the official Gentoo [portage](https://wiki.gentoo.org/wiki/Portage) tree, `net-print/epson-inkjet-printer-escpr2` is not.
 
 A complete list of supported printer series is in the `./ppd` directory of the source file, among them e.g. Epson WorkForce and EcoTank series printers.
 
@@ -34,17 +34,17 @@ Running `emerge --sync escpr2` will sync only this repository. To remove it, sim
 
 ### repos.conf
 
-This is the manual method. Just copy `escpr2.conf` to `/etc/portage/repos.conf/` and modify it for your configuration, e.g. using nano:
+This is the manual method. Just copy `escpr2.conf` to `/etc/portage/repos.conf/` and modify it for your configuration, e.g. using your default editor:
 
     wget https://gitlab.com/at.gentoo.repo/epson-inkjet-printer-escpr2/-/raw/master/escpr2.conf -O /etc/portage/repos.conf/escpr2.conf
-    nano /etc/portage/repos.conf/escpr2.conf
+    $EDITOR /etc/portage/repos.conf/escpr2.conf
 
 Especially the `location` field must be set correctly, but disabling `auto-sync` could also be an interesting option for those who don't want to get regular updates.
 
 How to add the license
 ----------------------
 
-The `EPSON-EULA` must be an accepted license. After reading it you may add it to your `make.conf`. Please consult the [Gentoo Wiki on make.conf](https://wiki.gentoo.org/wiki//etc/portage/make.conf#ACCEPT_LICENSE) on how to do that.
+The `EPSON-EULA` must be an accepted license. After reading it you may add it to your `make.conf`. Please consult the Gentoo Wiki page on [make.conf](https://wiki.gentoo.org/wiki//etc/portage/make.conf#ACCEPT_LICENSE) for more information on how to do that.
 
 How to install the printer driver
 ---------------------------------
@@ -59,14 +59,15 @@ This is the preferred ebuild. It downloads the publicly available sources from E
 
 ### net-print/epson-inkjet-printer-escpr2-bin
 
-The binary package and the source ebuild cannot be installed at the same time. Also, the binary ebuild requires `ACCEPT_KEYWORDS=~amd64` or `ACCEPT_KEYWORDS=~x86`. Use it only if you have problems with the source package.
+The binary package and the source ebuild cannot be installed at the same time. Also, the binary ebuild requires [`ACCEPT_KEYWORDS`](https://wiki.gentoo.org/wiki/ACCEPT_KEYWORDS) of either `~x86` or `~amd64`. Use it only if you have problems with the source package.
 
+    echo "net-print/epson-inkjet-printer-escpr2-bin ~amd64" >> /etc/portage/package.accept_keywords
     emerge -a net-print/epson-inkjet-printer-escpr2-bin
 
 What to do after installation
 -----------------------------
 
-Refer to the README file in `/usr/share/doc`. In short: Add the printer to your CUPS configuration. There are mupltiple ways to do this, one of which is to navigate to http://localhost:631/. Select model "EPSON-ESC/P-R Printer Driver for Linux" and the correct printer series should be available for selection.
+Refer to the README file in `/usr/share/doc`. In short: Add the printer to your CUPS configuration. There are mupltiple ways to do this, one of which is to navigate to ``http://localhost:631/``. When adding a new printer, select model "EPSON-ESC/P-R Printer Driver for Linux" and the correct printer series should be available for selection.
 
 Bugs
 ----
@@ -76,6 +77,7 @@ Only bugs (and enhancements or suggestions) concerning the ebuilds should be rep
 Resources
 ---------
 
+- <https://wiki.gentoo.org/wiki/Printing>
 - <https://bugs.gentoo.org/662364>
 - <https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX>
 - <https://wiki.archlinux.org/index.php/CUPS/Printer-specific_problems#Epson>
