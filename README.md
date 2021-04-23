@@ -14,7 +14,7 @@ The ebuild will download the files directly from the *Seiko Epson Corporation*. 
 
 Please note that Epson releases the driver unter the LGPL-2.1 and an EULA, which is a **limited license** for **personal and internal business use!**
 
-**The quality of this repository is purely experimental!** You use it at your own risk! Also, I don't do a lot of testing other than installing the source package myself and printing with it on an EcoTank series printer. Specifically this means that, currently, the binary package is not tested, nor is the escprlib useflag. Also, since I'm not a developer, should newer versions require more ebuild work, a longer delay is to be expected.
+**The quality of this repository is purely experimental!** You use it at your own risk! I don't do a lot of testing other than installing the source package myself and printing with it on an EcoTank series printer. Specifically this means that, currently, the binary package is not tested, nor is the escprlib useflag. Also, since I'm not a developer, should newer versions require more ebuild work, a longer delay is to be expected.
 
 Brief history
 -------------
@@ -41,7 +41,7 @@ This is the manual method. Just copy `escpr2.conf` to `/etc/portage/repos.conf/`
     wget https://gitlab.com/at.gentoo.repo/epson-inkjet-printer-escpr2/-/raw/master/escpr2.conf -O /etc/portage/repos.conf/escpr2.conf
     $EDITOR /etc/portage/repos.conf/escpr2.conf
 
-Especially the `location` field must be set correctly, but disabling `auto-sync` could also be an interesting option for those who don't want to get regular updates.
+Especially the `location` field must be set correctly, but disabling `auto-sync` could also be an interesting option for those who don't want to get regular updates. Since a lot of updates only add new printer models, this could be a preferred option. Refer to [NEWS](NEWS) for version update information regarding bug fixes.
 
 How to add the license
 ----------------------
