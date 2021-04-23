@@ -41,7 +41,7 @@ This is the manual method. Just copy `escpr2.conf` to `/etc/portage/repos.conf/`
     wget https://gitlab.com/at.gentoo.repo/epson-inkjet-printer-escpr2/-/raw/master/escpr2.conf -O /etc/portage/repos.conf/escpr2.conf
     $EDITOR /etc/portage/repos.conf/escpr2.conf
 
-Especially the `location` field must be set correctly, but disabling `auto-sync` could also be an interesting option for those who don't want to get regular updates. Since a lot of updates only add new printer models, this could be a preferred option. Refer to NEWS for version update information regarding bug fixes.
+Especially the `location` field must be set correctly, but disabling `auto-sync` could also be an interesting option for those who don't want to get regular updates. Since a lot of updates only add new printer models, this could be a preferred option. Refer to [NEWS](NEWS) for version update information regarding bug fixes.
 
 How to add the license
 ----------------------
