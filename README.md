@@ -14,6 +14,8 @@ The ebuild will download the files directly from the *Seiko Epson Corporation*. 
 
 Please note that Epson releases the driver unter the LGPL-2.1 and an EULA, which is a **limited license** for **personal and internal business use!**
 
+**The quality of this repository is purely experimental!** You use it at your own risk! Also, I don't do a lot of testing other than installing the source package myself and printing with it on an EcoTank series printer. Specifically this means that, currently, the binary package is not tested, nor is the escprlib useflag. Also, since I'm not a developer, should newer versions require more ebuild work, a longer delay is to be expected.
+
 Brief history
 -------------
 
