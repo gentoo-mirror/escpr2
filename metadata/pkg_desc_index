@@ -1,3 +1,3 @@
-net-print/epson-inkjet-printer-escpr2 1.1.30 1.1.31: Epson ESC/P-R 2 generic Inkjet Printer Driver
-net-print/epson-inkjet-printer-escpr2-bin 1.1.30 1.1.31: Epson ESC/P-R 2 generic Inkjet Printer Driver binary package
+net-print/epson-inkjet-printer-escpr2 1.1.31 1.1.32: Epson ESC/P-R 2 generic Inkjet Printer Driver
+net-print/epson-inkjet-printer-escpr2-bin 1.1.31 1.1.32: Epson ESC/P-R 2 generic Inkjet Printer Driver binary package
 sys-libs/liblsb-compat 3.0: Compatibility with LSB (Linux Standard Base) for binary programs
