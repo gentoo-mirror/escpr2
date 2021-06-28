@@ -9,5 +9,5 @@ LICENSE=EPSON-EULA LGPL-2.1
 RDEPEND=net-print/cups !net-print/epson-inkjet-printer-escpr2-bin
 RESTRICT=mirror
 SLOT=0
-SRC_URI=https://download3.ebz.epson.net/dsc/f/03/00/12/70/10/c6a1da44cf99b158c64fb87bc5572d8ee2757eb0/epson-inkjet-printer-escpr2-1.1.32.tar.gz
-_md5_=bac1fa48f229b2f2797f8dfca88d3fd5
+SRC_URI=https://download3.ebz.epson.net/dsc/f/03/00/12/87/87/7d21acdc8f35e98c88c343d87cd1f232c566befb/epson-inkjet-printer-escpr2-1.1.35.tar.gz
+_md5_=e7599b9853e402477aa1d971e259c67a
