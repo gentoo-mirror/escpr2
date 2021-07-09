@@ -4,13 +4,13 @@ Gentoo escpr2 overlay
 This repository
 ---------------
 
-The name of this repository is **Epson Inkjet Printer Driver 2 (ESC/P-R)** repository, in short **escpr2**.
+The name of this repository is **Epson Inkjet Printer Driver 2 (ESC/P-R)**, in short **escpr2**.
 
 For the owners of certain Epson printers the open source **Printer Driver 2 (ESC/P-R) for Linux** or **`escpr2`** will enable printing with CUPS (Common Unix Printing System). While the [`net-print/epson-inkjet-printer-escpr`](https://packages.gentoo.org/packages/net-print/epson-inkjet-printer-escpr) package is in the official Gentoo [portage](https://wiki.gentoo.org/wiki/Portage) tree, `net-print/epson-inkjet-printer-escpr2` is not.
 
 A complete list of supported printer series is in the `./ppd` directory of the source file, among them e.g. Epson WorkForce and EcoTank series printers.
 
-The ebuild will download the files directly from the *Seiko Epson Corporation*. Because Epson removes old versions upon release of a new one, **older ebuilds will not work** unless you already obtained the required files and have them available in your [distfiles](https://wiki.gentoo.org/wiki/DISTDIR) directory.
+The ebuild will download the files directly from the *Seiko Epson Corporation*. Because Epson often removes old versions upon release of a new one, **older ebuilds likely won't work** unless you already obtained the required files and have them available in your [distfiles](https://wiki.gentoo.org/wiki/DISTDIR) directory.
 
 Please note that Epson releases the driver unter the LGPL-2.1 and an EULA, which is a **limited license** for **personal and internal business use!**
 
