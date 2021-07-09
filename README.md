@@ -12,7 +12,7 @@ A complete list of supported printer series is in the `./ppd` directory of the s
 
 The ebuild will download the files directly from the *Seiko Epson Corporation*. Because Epson often removes old versions upon release of a new one, **older ebuilds likely won't work** unless you already obtained the required files and have them available in your [distfiles](https://wiki.gentoo.org/wiki/DISTDIR) directory.
 
-Please note that Epson releases the driver unter the LGPL-2.1 and an EULA, which is a **limited license** for **personal and internal business use!**
+Please note that Epson releases the driver under the LGPL-2.1 and an EULA, which is a **limited license** for **personal and internal business use!**
 
 **The quality of this repository is purely experimental!** You use it at your own risk! I don't do a lot of testing other than installing the source package myself and printing with it on an EcoTank series printer. Specifically this means that, currently, the binary package is not tested, nor is the escprlib useflag. Also, since I'm not a developer, should newer versions require more ebuild work, a longer delay is to be expected.
 
