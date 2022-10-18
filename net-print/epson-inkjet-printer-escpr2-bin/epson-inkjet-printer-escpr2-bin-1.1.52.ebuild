@@ -5,8 +5,8 @@ EAPI=6
 
 inherit rpm
 
-DSC_x86="f/03/00/13/76/47/7dc899751d52b18d92a0b90bb1348ad3daf32851"
-DSC_amd64="f/03/00/13/76/47/1e4896743ee2c0ee9e2b4c1d00783d113c4f119d"
+DSC_x86="f/03/00/13/98/89/7f079b3092262005bbf5cf1c8588f6b12266e6c7"
+DSC_amd64="f/03/00/13/98/89/824bd0b5f90161109f86eacb333621115e98d670"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver binary package"
 HOMEPAGE="https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
