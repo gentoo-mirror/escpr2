@@ -1,0 +1,205 @@
+List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.1.55:
+
+Epson EC 4020 Series
+Epson EC 4030 Series
+Epson EC 4040 Series
+Epson EC C7000 Series
+Epson EP 50V Series
+Epson EP 879A Series
+Epson EP 880A Series
+Epson EP 881A Series
+Epson EP 882A Series
+Epson EP 883A Series
+Epson EP 884A Series
+Epson EP 885A Series
+Epson EP 982A3 Series
+Epson ET 15000 Series
+Epson ET 16150 Series
+Epson ET 16600 Series
+Epson ET 16650 Series
+Epson ET 16680 Series
+Epson ET 3700 Series
+Epson ET 3710 Series
+Epson ET 3750 Series
+Epson ET 3760 Series
+Epson ET 3800 Series
+Epson ET 3830 Series
+Epson ET 3840 Series
+Epson ET 3850 Series
+Epson ET 4750 Series
+Epson ET 4760 Series
+Epson ET 4850 Series
+Epson ET 5150 Series
+Epson ET 5170 Series
+Epson ET 5180 Series
+Epson ET 5800 Series
+Epson ET 5850 Series
+Epson ET 5880 Series
+Epson ET 8500 Series
+Epson ET 8550 Series
+Epson ET 8700 Series
+Epson ET M1140 Series
+Epson ET M1170 Series
+Epson ET M1180 Series
+Epson ET M16600 Series
+Epson ET M16680 Series
+Epson ET M2140 Series
+Epson ET M2170 Series
+Epson ET M3140 Series
+Epson ET M3170 Series
+Epson ET M3180 Series
+Epson EW M530F Series
+Epson EW M5610FT Series
+Epson EW M630T Series
+Epson EW M634T Series
+Epson EW M670FT Series
+Epson EW M674FT Series
+Epson EW M752T Series
+Epson EW M754T Series
+Epson EW M873T Series
+Epson EW M973A3T Series
+Epson L11160 Series
+Epson L14150 Series
+Epson L15150 Series
+Epson L15160 Series
+Epson L15180 Series
+Epson L3550 Series
+Epson L3560 Series
+Epson L6160 Series
+Epson L6170 Series
+Epson L6190 Series
+Epson L6260 Series
+Epson L6270 Series
+Epson L6290 Series
+Epson L6460 Series
+Epson L6490 Series
+Epson L6550 Series
+Epson L6570 Series
+Epson L6580 Series
+Epson L8160 Series
+Epson L8180 Series
+Epson M1140 Series
+Epson M1170 Series
+Epson M1180 Series
+Epson M15140 Series
+Epson M15180 Series
+Epson M2140 Series
+Epson M2170 Series
+Epson M3140 Series
+Epson M3170 Series
+Epson M3180 Series
+Epson PM 520 Series
+Epson PX M270FT Series
+Epson PX M270T Series
+Epson PX M380F
+Epson PX M381FL
+Epson PX M5080F Series
+Epson PX M5081F Series
+Epson PX M6010F Series
+Epson PX M6011F Series
+Epson PX M6711FT Series
+Epson PX M6712FT Series
+Epson PX M680F Series
+Epson PX M7070FX
+Epson PX M7080FX
+Epson PX M7090FX
+Epson PX M7110F
+Epson PX M7110FP
+Epson PX M730F Series
+Epson PX M780F Series
+Epson PX M781F Series
+Epson PX M791FT Series
+Epson PX M880FX
+Epson PX M884F
+Epson PX M885F
+Epson PX M886FL
+Epson PX M887F
+Epson PX S270T Series
+Epson PX S380
+Epson PX S381L
+Epson PX S5010 Series
+Epson PX S5080 Series
+Epson PX S6010 Series
+Epson PX S6710T Series
+Epson PX S7070X
+Epson PX S7090X
+Epson PX S7110
+Epson PX S7110P
+Epson PX S730 Series
+Epson PX S880X
+Epson PX S884
+Epson PX S885
+Epson PX S887
+Epson ST 3000 Series
+Epson ST 4000 Series
+Epson ST C4100 Series
+Epson ST C8000 Series
+Epson ST C8090 Series
+Epson ST M1000 Series
+Epson ST M3000 Series
+Epson WF 2860 Series
+Epson WF 2880 Series
+Epson WF 2960 Series
+Epson WF 3720 Series
+Epson WF 3730 Series
+Epson WF 3820 Series
+Epson WF 4720 Series
+Epson WF 4730 Series
+Epson WF 4740 Series
+Epson WF 4820 Series
+Epson WF 4830 Series
+Epson WF 7210 Series
+Epson WF 7310 Series
+Epson WF 7710 Series
+Epson WF 7720 Series
+Epson WF 7820 Series
+Epson WF 7830 Series
+Epson WF 7840 Series
+Epson WF C4310 Series
+Epson WF C4810 Series
+Epson WF C5210 Series
+Epson WF C5290BA
+Epson WF C5290BAM
+Epson WF C5290 Series
+Epson WF C529RB
+Epson WF C529RBAM
+Epson WF C529R Series
+Epson WF C5310 Series
+Epson WF C5390BAM
+Epson WF C5390 Series
+Epson WF C5710 Series
+Epson WF C5790BA
+Epson WF C5790BAM
+Epson WF C5790 Series
+Epson WF C579RB
+Epson WF C579RBAM
+Epson WF C579R Series
+Epson WF C5810 Series
+Epson WF C5890BAM
+Epson WF C5890 Series
+Epson WF C8190B
+Epson WF C8190 Series
+Epson WF C8610 Series
+Epson WF C8690B
+Epson WF C8690 Series
+Epson WF C869R Series
+Epson WF C878RB
+Epson WF C878R Series
+Epson WF C879RB
+Epson WF C879RBAM
+Epson WF C879R Series
+Epson WF M5298 Series
+Epson WF M5299BAM
+Epson WF M5299 Series
+Epson WF M5799BAM
+Epson WF M5799 Series
+Epson XP 15000 Series
+Epson XP 5100 Series
+Epson XP 5150 Series
+Epson XP 5200 Series
+Epson XP 6000 Series
+Epson XP 6100 Series
+Epson XP 8500 Series
+Epson XP 8600 Series
+Epson XP 8700 Series
+Epson XP 970 Series
