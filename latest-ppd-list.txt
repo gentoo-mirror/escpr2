@@ -1,4 +1,4 @@
-List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.1.55:
+List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.1.56:
 
 Epson EC 4020 Series
 Epson EC 4030 Series
@@ -13,6 +13,7 @@ Epson EP 883A Series
 Epson EP 884A Series
 Epson EP 885A Series
 Epson EP 982A3 Series
+Epson ET 2840 Series
 Epson ET 3700 Series
 Epson ET 3710 Series
 Epson ET 3750 Series
@@ -60,6 +61,7 @@ Epson EW M973A3T Series
 Epson EW M5610FT Series
 Epson L3550 Series
 Epson L3560 Series
+Epson L5590 Series
 Epson L6160 Series
 Epson L6170 Series
 Epson L6190 Series
