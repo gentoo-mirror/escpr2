@@ -5,7 +5,7 @@
 PV=`ls -v net-print/epson-inkjet-printer-escpr2/*.ebuild | tail -n 1 | sed 's/^net-print\/epson-inkjet-printer-escpr2\/epson-inkjet-printer-escpr2-//' | sed 's/.ebuild$//'`
 TMPDIR="/tmp"
 TARGZ_FILE="${TMPDIR}/epson-inkjet-printer-escpr2-${PV}.tar.gz"
-OUTFILE="latest-ppd-list.txt"
+OUTFILE="SUPPORTED-PRINTERS"
 source net-print/epson-inkjet-printer-escpr2/epson-inkjet-printer-escpr2-${PV}.ebuild
 DL_TARGZ=
 test ! -e "${TARGZ_FILE}" && DL_TARGZ=1
