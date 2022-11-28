@@ -1,16 +1,19 @@
 #!/bin/sh
 #
-# Run as: sh scripts/list-ppds-from-tar.sh
+# Run as: sh scripts/update-news-and-ppd-list.sh
 #
 PV=`ls -v net-print/epson-inkjet-printer-escpr2/*.ebuild | tail -n 1 | sed 's/^net-print\/epson-inkjet-printer-escpr2\/epson-inkjet-printer-escpr2-//' | sed 's/.ebuild$//'`
 TMPDIR="/tmp"
 TARGZ_FILE="${TMPDIR}/epson-inkjet-printer-escpr2-${PV}.tar.gz"
 OUTFILE="latest-ppd-list.txt"
 source net-print/epson-inkjet-printer-escpr2/epson-inkjet-printer-escpr2-${PV}.ebuild
-wget -O "${TARGZ_FILE}" "${SRC_URI}"
+DL_TARGZ=
+test ! -e "${TARGZ_FILE}" && DL_TARGZ=1
+test -n "${DL_TARGZ}" && wget -O "${TARGZ_FILE}" "${SRC_URI}"
+tar -xzf "$TARGZ_FILE" --strip-components=1 --wildcards --no-anchored 'NEWS'
 cat << EOF > ${OUTFILE}
 List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-${PV}:
 
 EOF
 tar -ztf "$TARGZ_FILE" --wildcards '*.ppd' | sed 's/epson-inkjet-printer-escpr2-.*\/ppd\///' | sed 's/-epson-escpr2-en.ppd//' | tr '-' ' ' | tr '_' ' ' | sort -V - >> ${OUTFILE}
-rm "${TARGZ_FILE}"
+test -n "${DL_TARGZ}" && rm "${TARGZ_FILE}"
