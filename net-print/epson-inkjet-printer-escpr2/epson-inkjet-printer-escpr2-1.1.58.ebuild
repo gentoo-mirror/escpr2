@@ -3,7 +3,7 @@
 
 EAPI=6
 
-DSC_src="f/03/00/14/09/32/e830711afb30a535b332eb1553e45d277e19537c"
+DSC_src="f/03/00/14/17/02/7a6b3153b4d0d6cd35a31cc7c2cc45a3b03dbb65"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver"
 HOMEPAGE="https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
