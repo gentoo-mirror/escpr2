@@ -5,30 +5,25 @@ EAPI=6
 
 inherit rpm
 
-DSC_x86="f/03/00/14/31/94/6e58cc9ee713f8000b5381060db4bba535934032"
-DSC_amd64="f/03/00/14/31/94/14c2e8ee6f2586b2b1cc1e8024b532cf021b72a1"
+DSC_amd64="f/03/00/14/70/61/0a926376757a0138eb30d837763ff79cec55e275"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver binary package"
 HOMEPAGE="https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
-SRC_URI="x86? ( https://download3.ebz.epson.net/dsc/${DSC_x86}/epson-inkjet-printer-escpr2-${PV}-1lsb3.2.i486.rpm )
-         amd64? ( https://download3.ebz.epson.net/dsc/${DSC_amd64}/epson-inkjet-printer-escpr2-${PV}-1lsb3.2.x86_64.rpm )"
+SRC_URI="amd64? ( https://download3.ebz.epson.net/dsc/${DSC_amd64}/epson-inkjet-printer-escpr2-${PV}-1.x86_64.rpm )"
 LICENSE="EPSON-EULA LGPL-2.1"
 SLOT="0"
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="~amd64"
 IUSE=""
 
 RESTRICT="mirror"
 RDEPEND="net-print/cups
-         sys-libs/liblsb-compat:3
          !net-print/epson-inkjet-printer-escpr2"
 DEPEND="${RDEPEND}"
 
 S="${WORKDIR}/opt/epson-inkjet-printer-escpr2"
 
 src_unpack() {
-    if use x86; then
-    rpm_src_unpack epson-inkjet-printer-escpr2-${PV}-1lsb3.2.i486.rpm
-    elif use amd64; then
+    if use amd64; then
     rpm_src_unpack epson-inkjet-printer-escpr2-${PV}-1lsb3.2.x86_64.rpm
     fi
     cd ${S}
