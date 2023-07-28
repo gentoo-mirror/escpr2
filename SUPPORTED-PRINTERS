@@ -1,4 +1,4 @@
-List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.2.1:
+List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.2.2:
 
 Epson EC 4020 Series
 Epson EC 4030 Series
@@ -140,6 +140,8 @@ Epson PX S7110P
 Epson ST 3000 Series
 Epson ST 4000 Series
 Epson ST C4100 Series
+Epson ST C5000 Series
+Epson ST C5500 Series
 Epson ST C8000 Series
 Epson ST C8090 Series
 Epson ST M1000 Series

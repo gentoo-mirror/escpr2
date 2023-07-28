@@ -5,7 +5,7 @@
 PVR=`ls -v net-print/epson-inkjet-printer-escpr2/*.ebuild | tail -n 1 | sed 's/^net-print\/epson-inkjet-printer-escpr2\/epson-inkjet-printer-escpr2-//' | sed 's/.ebuild$//'`
 PV=`echo "$PVR" | cut -d '-' -f 1`
 TMPDIR="/tmp"
-TARGZ_FILE="${TMPDIR}/epson-inkjet-printer-escpr2-${PV}.tar.gz"
+TARGZ_FILE="${TMPDIR}/epson-inkjet-printer-escpr2-${PV}-1.tar.gz"
 OUTFILE="SUPPORTED-PRINTERS"
 source net-print/epson-inkjet-printer-escpr2/epson-inkjet-printer-escpr2-${PVR}.ebuild
 DL_TARGZ=
