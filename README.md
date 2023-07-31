@@ -8,7 +8,7 @@ The name of this repository is **Epson Inkjet Printer Driver 2 (ESC/P-R)**, in s
 
 For the owners of certain Epson printers the open source **Printer Driver 2 (ESC/P-R) for Linux** or **`escpr2`** will enable printing with CUPS (Common Unix Printing System). While the [`net-print/epson-inkjet-printer-escpr`](https://packages.gentoo.org/packages/net-print/epson-inkjet-printer-escpr) package is in the official Gentoo [portage](https://wiki.gentoo.org/wiki/Portage) tree, `net-print/epson-inkjet-printer-escpr2` is not.
 
-A complete list of supported printer series is in the `./ppd` directory of the source file, among them e.g. Epson WorkForce and EcoTank series printers. For your convenience [a list of PPDs](SUPPORTED-PRINTERS) is compiled from the current escpr2-version.
+A complete list of supported printer series is in the `./ppd` directory of the source file, among them e.g. Epson WorkForce and EcoTank series printers. For your convenience a list of PPDs, [SUPPORTED-PRINTERS](SUPPORTED-PRINTERS), is compiled from the current escpr2-version.
 
 The ebuild will download the files directly from the *Seiko Epson Corporation*. Because Epson often removes old versions upon release of a new one, **older ebuilds likely won't work** unless you already obtained the required files and have them available in your [distfiles](https://wiki.gentoo.org/wiki/DISTDIR) directory.
 
@@ -24,7 +24,7 @@ The full history can be found in [Gentoo Bug #662364](https://bugs.gentoo.org/66
 How to add the repository
 -------------------------
 
-Please read the Gentoo Wiki [ebuild repository](https://wiki.gentoo.org/wiki/Ebuild_repository) page before you proceed, especially section [best practices](https://wiki.gentoo.org/wiki/Ebuild_repository#Best_practices)...
+Please read the Gentoo Wiki [ebuild repository](https://wiki.gentoo.org/wiki/Ebuild_repository) page before you proceed.
 
 ### eselect-repository
 
@@ -74,7 +74,7 @@ Refer to the README file in `/usr/share/doc`. In short: Add the printer to your 
 Bugs
 ----
 
-Only bugs (and enhancements or suggestions) concerning the ebuilds should be reported, [Gentoo Bug #662364](https://bugs.gentoo.org/662364). Problems with the driver must be reported upstream, from ./AUTHORS in the source tarball: Seiko Epson Corporation <linux-printer@epson.jp>.
+Only bugs (and enhancements or suggestions) concerning the ebuilds should be reported, [Gentoo Bug #662364](https://bugs.gentoo.org/662364). Problems with the driver must be reported upstream, from `./AUTHORS` in the source tarball: "Seiko Epson Corporation <<linux-printer@epson.jp>>".
 
 Resources
 ---------
@@ -82,5 +82,6 @@ Resources
 - <https://wiki.gentoo.org/wiki/Printing>
 - <https://bugs.gentoo.org/662364>
 - <https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX>
+- <http://support.epson.net/linux/Printer/LSB_distribution_pages/en/escpr2.php>
 - <https://wiki.archlinux.org/index.php/CUPS/Printer-specific_problems#Epson>
 - <https://aur.archlinux.org/packages/epson-inkjet-printer-escpr2/>
