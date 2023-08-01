@@ -61,7 +61,7 @@ This is the preferred ebuild. It downloads the publicly available sources from E
 
 ### net-print/epson-inkjet-printer-escpr2-bin
 
-The binary package and the source ebuild cannot be installed at the same time. Also, the binary ebuild requires [`ACCEPT_KEYWORDS`](https://wiki.gentoo.org/wiki/ACCEPT_KEYWORDS) of either `~x86` or `~amd64`. Use it only if you have problems with the source package.
+The binary package and the source ebuild cannot be installed at the same time. Also, the binary ebuild requires [`ACCEPT_KEYWORDS`](https://wiki.gentoo.org/wiki/ACCEPT_KEYWORDS) of either `~amd64` (or `~x86`, which is available in legacy version 1.1.62). Use it only if you have problems with the source package.
 
     echo "net-print/epson-inkjet-printer-escpr2-bin ~amd64" >> /etc/portage/package.accept_keywords
     emerge -a net-print/epson-inkjet-printer-escpr2-bin
@@ -82,6 +82,6 @@ Resources
 - <https://wiki.gentoo.org/wiki/Printing>
 - <https://bugs.gentoo.org/662364>
 - <https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX>
-- <http://support.epson.net/linux/Printer/LSB_distribution_pages/en/escpr2.php>
+- <https://support.epson.net/linux/Printer/LSB_distribution_pages/en/escpr2.php>
 - <https://wiki.archlinux.org/index.php/CUPS/Printer-specific_problems#Epson>
 - <https://aur.archlinux.org/packages/epson-inkjet-printer-escpr2/>
