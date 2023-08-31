@@ -5,12 +5,14 @@ EAPI=6
 
 inherit rpm
 
-DSC_amd64="f/03/00/14/75/73/5d4134f621ecb4836d84ac877ec08310a0b87ca9"
-SVR="-1"
+DSC_F="dsc/f/03/00/14/85/37/e2c9cfe0c7cfbb8cb3d440938be64bdad965d64b"
+MY_PN="epson-inkjet-printer-escpr2"
+MY_PV="${PV}-1"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver binary package"
-HOMEPAGE="https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
-SRC_URI="https://download3.ebz.epson.net/dsc/${DSC_amd64}/epson-inkjet-printer-escpr2-${PV}${SVR}.x86_64.rpm"
+HOMEPAGE="https://support.epson.net/linux/Printer/LSB_distribution_pages/en/escpr2.php"
+# the sources are often (delayed) also available from the EPSON driver download page: https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+SRC_URI="https://download3.ebz.epson.net/${DSC_F}/${MY_PN}-${MY_PV}.x86_64.rpm"
 LICENSE="EPSON-EULA LGPL-2.1"
 SLOT="0"
 KEYWORDS="~amd64"
@@ -21,10 +23,10 @@ RDEPEND="net-print/cups
          !net-print/epson-inkjet-printer-escpr2"
 DEPEND="${RDEPEND}"
 
-S="${WORKDIR}/opt/epson-inkjet-printer-escpr2"
+S="${WORKDIR}/opt/${MY_PN}"
 
 src_unpack() {
-    rpm_src_unpack epson-inkjet-printer-escpr2-${PV}-1lsb3.2.x86_64.rpm
+    rpm_src_unpack ${MY_PN}-${MY_PV}.x86_64.rpm
     cd ${S}
 }
 
@@ -37,6 +39,6 @@ src_install() {
 # docs
     dodoc doc/*
 # ppds
-    insinto /usr/share/ppd/epson-inkjet-printer-escpr2/
+    insinto /usr/share/ppd/${MY_PN}/
     doins ppds/Epson/*
 }
