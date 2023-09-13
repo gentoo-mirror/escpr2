@@ -3,14 +3,17 @@
 
 EAPI=6
 
-DSC_src="f/03/00/14/75/78/aeb37e000452a166daca5daad8ac74cd25b80be6"
+DSC_F="dsc/f/03/00/14/91/85/ec2511ad088e92d2c6dd6a79c33a273cd4c13dac"
+MY_PV="${PV}-1"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver"
-HOMEPAGE="https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX"
-SRC_URI="https://download3.ebz.epson.net/dsc/${DSC_src}/epson-inkjet-printer-escpr2-${PV}-1.tar.gz"
-LICENSE="EPSON-EULA LGPL-2.1"
+HOMEPAGE="https://support.epson.net/linux/Printer/LSB_distribution_pages/en/escpr2.php"
+# to get the (link for the) .tar.gz sources, which are identical to the .rpm sources for x86, one must "click here" for the "source package for arm CPU"
+# the sources are often (delayed) also available from the EPSON driver download page: https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+SRC_URI="https://download3.ebz.epson.net/${DSC_F}/${PN}-${MY_PV}.tar.gz"
+LICENSE="SEIKO-EPSON-EULA LGPL-2.1"
 SLOT="0"
-KEYWORDS="amd64 x86 ~arm ~arm64"
+KEYWORDS="amd64 x86 arm arm64"
 IUSE="escprlib"
 
 RESTRICT="mirror"
@@ -41,4 +44,8 @@ src_install() {
     fi
     emake -C src DESTDIR="${D}" install
     einstalldocs
+}
+
+pkg_postinst() {
+        elog "The latest user manual is available online at https://download.ebz.epson.net/man/linux/escpr2.html"
 }
