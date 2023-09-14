@@ -46,7 +46,7 @@ Especially the `location` field must be set correctly, but disabling `auto-sync`
 How to add the license
 ----------------------
 
-The `EPSON-EULA` must be an accepted license. After reading it you may add it to your `make.conf`. Please consult the Gentoo Wiki page on [make.conf](https://wiki.gentoo.org/wiki//etc/portage/make.conf#ACCEPT_LICENSE) for more information on how to do that.
+The `SEIKO-EPSON-EULA`, before version 1.2.5 `EPSON-EULA`, must be an accepted license. After reading it you may add it to your `make.conf`. Please consult the Gentoo Wiki page on [make.conf](https://wiki.gentoo.org/wiki//etc/portage/make.conf#ACCEPT_LICENSE) for more information on how to do that.
 
 How to install the printer driver
 ---------------------------------
@@ -69,7 +69,7 @@ The binary package and the source ebuild cannot be installed at the same time. A
 What to do after installation
 -----------------------------
 
-Refer to the README file in `/usr/share/doc`. In short: Add the printer to your CUPS configuration. There are mupltiple ways to do this, one of which is to navigate to ``http://localhost:631/``. When adding a new printer, select model "EPSON-ESC/P-R Printer Driver for Linux" and the correct printer series should be available for selection.
+Refer to the README file in `/usr/share/doc` and the [online manual](https://download.ebz.epson.net/man/linux/escpr2.html). In short: Add the printer to your CUPS configuration. There are mupltiple ways to do this, one of which is to navigate to ``http://localhost:631/``. When adding a new printer, select model "EPSON-ESC/P-R Printer Driver for Linux" and the correct printer series should be available for selection.
 
 Bugs
 ----
