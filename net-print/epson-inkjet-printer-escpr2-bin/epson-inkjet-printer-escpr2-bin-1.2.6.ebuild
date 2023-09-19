@@ -5,7 +5,7 @@ EAPI=6
 
 inherit rpm
 
-DSC_F="dsc/f/03/00/14/85/37/e2c9cfe0c7cfbb8cb3d440938be64bdad965d64b"
+DSC_F="dsc/f/03/00/15/03/64/b0cdd0a9d97de032a83009d94b8649085543a847"
 MY_PN="epson-inkjet-printer-escpr2"
 MY_PV="${PV}-1"
 
@@ -13,7 +13,7 @@ DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver binary package"
 HOMEPAGE="https://support.epson.net/linux/Printer/LSB_distribution_pages/en/escpr2.php"
 # the sources are often (delayed) also available from the EPSON driver download page: https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 SRC_URI="https://download3.ebz.epson.net/${DSC_F}/${MY_PN}-${MY_PV}.x86_64.rpm"
-LICENSE="EPSON-EULA LGPL-2.1"
+LICENSE="SEIKO-EPSON-EULA LGPL-2.1"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
@@ -34,11 +34,16 @@ src_install() {
 # libraries
     dolib.so lib64/libescpr2.so.1.0.0 lib64/libescpr2.so.1.0.0 lib64/libescpr2.so.1.0.0
 # cups executables
-    exeinto /opt/epson-inkjet-printer-escpr2/cups/lib/filter
+    exeinto /opt/${MY_PN}/cups/lib/filter
     doexe cups/lib/filter/epson-escpr-wrapper2 cups/lib/filter/epson-escpr2
 # docs
     dodoc doc/*
 # ppds
     insinto /usr/share/ppd/${MY_PN}/
     doins ppds/Epson/*
+}
+
+pkg_postinst() {
+        elog "The latest user manual is available online at:"
+        elog "    https://download.ebz.epson.net/man/linux/escpr2.html"
 }
