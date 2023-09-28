@@ -5,7 +5,7 @@ EAPI=6
 
 inherit rpm
 
-DSC_F="dsc/f/03/00/14/91/73/5d8b02f1727ed4e7ed0ca7fa4a72df7a9fdbe684"
+DSC_F="dsc/f/03/00/15/10/86/e65b32f49b78c86f54aaa5d08decaf1393a44f2c"
 MY_PN="epson-inkjet-printer-escpr2"
 MY_PV="${PV}-1"
 
@@ -44,5 +44,6 @@ src_install() {
 }
 
 pkg_postinst() {
-        elog "The latest user manual is available online at https://download.ebz.epson.net/man/linux/escpr2.html"
+        elog "The latest user manual is available online at:"
+        elog "    https://download.ebz.epson.net/man/linux/escpr2.html"
 }

@@ -3,7 +3,7 @@
 
 EAPI=6
 
-DSC_F="dsc/f/03/00/14/91/85/ec2511ad088e92d2c6dd6a79c33a273cd4c13dac"
+DSC_F="dsc/f/03/00/15/10/89/d11310f452e3f1033e97836f9bcb50e112cfb8c1"
 MY_PV="${PV}-1"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver"
@@ -47,5 +47,6 @@ src_install() {
 }
 
 pkg_postinst() {
-        elog "The latest user manual is available online at https://download.ebz.epson.net/man/linux/escpr2.html"
+        elog "The latest user manual is available online at:"
+        elog "    https://download.ebz.epson.net/man/linux/escpr2.html"
 }

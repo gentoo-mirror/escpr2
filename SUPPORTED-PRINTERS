@@ -1,4 +1,4 @@
-List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.2.6:
+List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.2.7:
 
 Epson EC 4020 Series
 Epson EC 4030 Series
@@ -36,6 +36,7 @@ Epson ET 5880 Series
 Epson ET 8500 Series
 Epson ET 8550 Series
 Epson ET 8700 Series
+Epson ET 14100 Series
 Epson ET 15000 Series
 Epson ET 16150 Series
 Epson ET 16600 Series
@@ -208,9 +209,11 @@ Epson WF M4619 Series
 Epson WF M5298 Series
 Epson WF M5299BAM
 Epson WF M5299 Series
+Epson WF M5399BAM
 Epson WF M5399 Series
 Epson WF M5799BAM
 Epson WF M5799 Series
+Epson WF M5899BAM
 Epson WF M5899 Series
 Epson XP 970 Series
 Epson XP 5100 Series
