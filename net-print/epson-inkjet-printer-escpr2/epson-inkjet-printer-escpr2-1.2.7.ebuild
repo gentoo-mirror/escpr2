@@ -11,7 +11,7 @@ HOMEPAGE="https://support.epson.net/linux/Printer/LSB_distribution_pages/en/escp
 # to get the (link for the) .tar.gz sources, which are identical to the .rpm sources for x86, one must "click here" for the "source package for arm CPU"
 # the sources are often (delayed) also available from the EPSON driver download page: https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 SRC_URI="https://download3.ebz.epson.net/${DSC_F}/${PN}-${MY_PV}.tar.gz"
-LICENSE="SEIKO-EPSON-EULA LGPL-2.1"
+LICENSE="EPSON-EULA LGPL-2.1"
 SLOT="0"
 KEYWORDS="amd64 x86 arm arm64"
 IUSE="escprlib"
@@ -47,6 +47,6 @@ src_install() {
 }
 
 pkg_postinst() {
-        elog "The latest user manual is available online at:"
+        elog "The online user manual is available at:"
         elog "    https://download.ebz.epson.net/man/linux/escpr2.html"
 }

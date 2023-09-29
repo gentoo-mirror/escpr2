@@ -12,7 +12,7 @@ A complete list of supported printer series is in the `./ppd` directory of the s
 
 The ebuild will download the files directly from the *Seiko Epson Corporation*. Because Epson often removes old versions upon release of a new one, **older ebuilds likely won't work** unless you already obtained the required files and have them available in your [distfiles](https://wiki.gentoo.org/wiki/DISTDIR) directory.
 
-Please note that Epson releases the driver under the LGPL-2.1 and an [EULA](licenses/SEIKO-EPSON-EULA), which is a **limited license** for **personal and internal business use!**
+Please note that Epson releases the driver under the LGPL-2.1 and an [EULA](licenses/EPSON-EULA), which is a **limited license** for **personal and internal business use!**
 
 **The quality of this repository is purely experimental!** You use it at your own risk! I don't do a lot of testing other than installing the source package myself and printing with it on an EcoTank series printer. Specifically this means that, currently, the binary package is not tested, nor is the escprlib useflag. Also, since I'm not a developer, should newer versions require more ebuild work, a longer delay is to be expected.
 
@@ -46,12 +46,12 @@ Especially the `location` field must be set correctly, but disabling `auto-sync`
 How to add the license
 ----------------------
 
-The `SEIKO-EPSON-EULA`, before version 1.2.5 `EPSON-EULA`, must be an accepted license. After reading it you may add it to your `make.conf`. Please consult the Gentoo Wiki page on [make.conf](https://wiki.gentoo.org/wiki//etc/portage/make.conf#ACCEPT_LICENSE) for more information on how to do that.
+The `EPSON-EULA` must be an accepted license. After reading it you may add it to your `make.conf`. Please consult the Gentoo Wiki page on [make.conf](https://wiki.gentoo.org/wiki//etc/portage/make.conf#ACCEPT_LICENSE) for more information on how to do that.
 
 How to install the printer driver
 ---------------------------------
 
-There are two packages available: the source tarball and the binary package. Both originate from Epson directly.
+There are two packages available: the source tarball and the binary package. The source and binary files originate from Epson directly.
 
 ### net-print/epson-inkjet-printer-escpr2
 
@@ -61,7 +61,7 @@ This is the preferred ebuild. It downloads the publicly available sources from E
 
 ### net-print/epson-inkjet-printer-escpr2-bin
 
-The binary package and the source ebuild cannot be installed at the same time. Also, the binary ebuild requires [`ACCEPT_KEYWORDS`](https://wiki.gentoo.org/wiki/ACCEPT_KEYWORDS) of either `~amd64` (or `~x86`, which is available in legacy version 1.1.62). Use it only if you have problems with the source package.
+The binary package and the source ebuild cannot be installed at the same time. Also, the binary ebuild requires `[`ACCEPT_KEYWORDS`](https://wiki.gentoo.org/wiki/ACCEPT_KEYWORDS)=~amd64` (in legacy version 1.1.62 there's also a binary package for `~x86`). Use it only if you have problems with the source package.
 
     echo "net-print/epson-inkjet-printer-escpr2-bin ~amd64" >> /etc/portage/package.accept_keywords
     emerge -a net-print/epson-inkjet-printer-escpr2-bin

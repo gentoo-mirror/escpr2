@@ -13,7 +13,7 @@ DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver binary package"
 HOMEPAGE="https://support.epson.net/linux/Printer/LSB_distribution_pages/en/escpr2.php"
 # the sources are often (delayed) also available from the EPSON driver download page: https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
 SRC_URI="https://download3.ebz.epson.net/${DSC_F}/${MY_PN}-${MY_PV}.x86_64.rpm"
-LICENSE="SEIKO-EPSON-EULA LGPL-2.1"
+LICENSE="EPSON-EULA LGPL-2.1"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
@@ -44,6 +44,6 @@ src_install() {
 }
 
 pkg_postinst() {
-        elog "The latest user manual is available online at:"
+        elog "The online user manual is available at:"
         elog "    https://download.ebz.epson.net/man/linux/escpr2.html"
 }
