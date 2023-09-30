@@ -17,5 +17,5 @@ cat << EOF > ${OUTFILE}
 List of PostScript Printer Description files (PPDs) in ${PN}-${PVR}:
 
 EOF
-tar -ztf "$TARGZ_FILE" --wildcards '*.ppd' | sed 's/epson-inkjet-printer-escpr2-.*\/ppd\///' | sed 's/-epson-escpr2-en.ppd//' | tr '-' ' ' | tr '_' ' ' | sort -V - >> ${OUTFILE}
+tar -ztf "$TARGZ_FILE" --wildcards '*.ppd' | sed 's/epson-inkjet-printer-escpr2-.*\/ppd\///; s/-epson-escpr2-en.ppd//; s/Epson-/Epson /' | tr '_' ' ' | sort -V - >> ${OUTFILE}
 test -n "${DL_TARGZ}" && rm "${TARGZ_FILE}"
