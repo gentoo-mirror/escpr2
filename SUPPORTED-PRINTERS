@@ -1,4 +1,4 @@
-List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.2.8:
+List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.2.9:
 
 Epson EC-4020 Series
 Epson EC-4030 Series
@@ -101,6 +101,7 @@ Epson M3180 Series
 Epson M15140 Series
 Epson M15180 Series
 Epson PM-520 Series
+Epson PX-M161T Series
 Epson PX-M270FT Series
 Epson PX-M270T Series
 Epson PX-M380F
@@ -127,6 +128,7 @@ Epson PX-M7080FX
 Epson PX-M7090FX
 Epson PX-M7110F
 Epson PX-M7110FP
+Epson PX-S161T Series
 Epson PX-S270T Series
 Epson PX-S380
 Epson PX-S381L
