@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 DSC_F="dsc/f/03/00/15/33/96/607198a4f064daa9e7931913eaf27f3a58125f2b"
 MY_PV="${PV}-1"
