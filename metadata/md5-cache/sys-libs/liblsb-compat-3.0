@@ -1,9 +1,9 @@
 DEFINED_PHASES=install
-DEPEND=sys-libs/glibc:2.2 <=sys-libs/glibc-2.32
+DEPEND=sys-libs/glibc:2.2 <sys-libs/glibc-2.33
 DESCRIPTION=Compatibility with LSB (Linux Standard Base) for binary programs
 EAPI=7
 KEYWORDS=x86 amd64
 LICENSE=libstdc++
-RDEPEND=sys-libs/glibc:2.2 <=sys-libs/glibc-2.32
+RDEPEND=sys-libs/glibc:2.2 <sys-libs/glibc-2.33
 SLOT=3
-_md5_=7deeae42cafc2e7259a1bc40c2dca3da
+_md5_=1732ed234baf66952805907218337517
