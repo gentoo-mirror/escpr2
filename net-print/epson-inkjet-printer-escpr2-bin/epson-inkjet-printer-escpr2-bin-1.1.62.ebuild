@@ -19,7 +19,7 @@ IUSE=""
 
 RESTRICT="mirror"
 RDEPEND="net-print/cups
-         || ( >sys-libs/glibc-2.32 sys-libs/liblsb-compat:3 )
+         || ( >=sys-libs/glibc-2.33 sys-libs/liblsb-compat:3 )
          !net-print/epson-inkjet-printer-escpr2"
 DEPEND="${RDEPEND}"
 

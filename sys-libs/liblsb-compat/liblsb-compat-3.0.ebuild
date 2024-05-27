@@ -10,7 +10,7 @@ SLOT="3"
 KEYWORDS="x86 amd64"
 
 RDEPEND="sys-libs/glibc:2.2
-	<=sys-libs/glibc-2.32"
+	<sys-libs/glibc-2.33"
 DEPEND="${RDEPEND}"
 
 S=${WORKDIR}
