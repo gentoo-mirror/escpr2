@@ -1,7 +1,7 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 inherit rpm
 
@@ -19,7 +19,7 @@ IUSE=""
 
 RESTRICT="mirror"
 RDEPEND="net-print/cups
-         sys-libs/liblsb-compat:3
+         || ( >sys-libs/glibc-2.32 sys-libs/liblsb-compat:3 )
          !net-print/epson-inkjet-printer-escpr2"
 DEPEND="${RDEPEND}"
 
@@ -49,4 +49,9 @@ src_install() {
 # ppds
     insinto /usr/share/ppd/epson-inkjet-printer-escpr2/
     doins ppds/Epson/*
+}
+
+pkg_postinst() {
+        elog "The online user manual is available at:"
+        elog "    https://download.ebz.epson.net/man/linux/escpr2.html"
 }
