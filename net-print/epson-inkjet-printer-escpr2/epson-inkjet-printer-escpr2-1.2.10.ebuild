@@ -25,8 +25,7 @@ PATCHES=(
     # Shamelessly copied from:
     # https://aur.archlinux.org/packages/epson-inkjet-printer-escpr2/
     # Patch URL: https://aur.archlinux.org/cgit/aur.git/tree/bug_x86_64.patch?h=epson-inkjet-printer-escpr2
-    # IT SEEMS THE PATCH DOESN'T WORK ANYMORE FOR 1.2.10 (it did for 1.2.9), SO DISABLING IT FOR NOW:
-    #"${FILESDIR}/bug_x86_64.patch"
+    "${FILESDIR}/no-implicit-function-declaration-1.2.10.patch"
 )
 
 src_configure() {

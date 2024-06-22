@@ -3,7 +3,7 @@
 
 EAPI=7
 
-DSC_F="dsc/f/03/00/15/33/96/607198a4f064daa9e7931913eaf27f3a58125f2b"
+DSC_F="dsc/f/03/00/15/93/09/2cbe14f01669df51a3fc95e7794050b78c39df91"
 MY_PV="${PV}-1"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver"
@@ -25,7 +25,7 @@ PATCHES=(
     # Shamelessly copied from:
     # https://aur.archlinux.org/packages/epson-inkjet-printer-escpr2/
     # Patch URL: https://aur.archlinux.org/cgit/aur.git/tree/bug_x86_64.patch?h=epson-inkjet-printer-escpr2
-    "${FILESDIR}/bug_x86_64.patch"
+    "${FILESDIR}/no-implicit-function-declaration-1.2.10.patch"
 )
 
 src_configure() {
