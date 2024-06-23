@@ -10,4 +10,4 @@ RDEPEND=net-print/cups !net-print/epson-inkjet-printer-escpr2-bin
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://download3.ebz.epson.net/dsc/f/03/00/14/47/09/7b92a3e5464e73253129a01790b9fc95bdbbca5c/epson-inkjet-printer-escpr2-1.1.62.tar.gz
-_md5_=5211de5ef404d324005cfa9fcbd47ea0
+_md5_=b8f2552535b67b4b114b8fc623790263
