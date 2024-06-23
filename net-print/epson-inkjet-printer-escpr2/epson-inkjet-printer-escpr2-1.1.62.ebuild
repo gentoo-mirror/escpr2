@@ -21,8 +21,8 @@ DEPEND="${RDEPEND}"
 PATCHES=(
     # Shamelessly copied from:
     # https://aur.archlinux.org/packages/epson-inkjet-printer-escpr2/
-    # Patch URL: https://aur.archlinux.org/cgit/aur.git/tree/bug_x86_64.patch?h=epson-inkjet-printer-escpr2
-    "${FILESDIR}/bug_x86_64.patch"
+    # Patch URL: https://aur.archlinux.org/cgit/aur.git/commit/?h=epson-inkjet-printer-escpr2&id=f25541048d4817c9f67ee97ec14e0105d89a9fee
+    "${FILESDIR}/gcc-no-implicit-function-declaration-1.1.15.patch"
 )
 
 src_configure() {
