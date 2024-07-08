@@ -1,6 +1,11 @@
 NEWS -- an overview of user-visible changes with each release
 
 ----------------------------------------------------------------------
+epson-inkjet-printer-escpr2-1.2.12                        (2024-07-04)
+----------------------------------------------------------------------
+ * Fixed a bug in the 32-bit library in the source code.
+
+----------------------------------------------------------------------
 epson-inkjet-printer-escpr2-1.2.11                        (2024-06-11)
 ----------------------------------------------------------------------
  * Supported new models

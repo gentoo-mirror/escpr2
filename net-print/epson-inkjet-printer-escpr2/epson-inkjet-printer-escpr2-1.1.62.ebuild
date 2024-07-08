@@ -42,3 +42,8 @@ src_install() {
     emake -C src DESTDIR="${D}" install
     einstalldocs
 }
+
+pkg_postinst() {
+        elog "The online user manual is available at:"
+        elog "    https://download.ebz.epson.net/man/linux/escpr2.html"
+}
