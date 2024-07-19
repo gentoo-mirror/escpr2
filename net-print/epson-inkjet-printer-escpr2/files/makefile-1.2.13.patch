@@ -1,0 +1,11 @@
+--- epson-inkjet-printer-escpr2-1.2.13/Makefile.in	2024-07-12 04:44:14.000000000 +0200
++++ epson-inkjet-printer-escpr2-1.2.12/Makefile.in	2024-07-04 03:50:06.000000000 +0200
+@@ -165,7 +165,7 @@
+ 	$(srcdir)/epson-inkjet-printer-escpr2.spec.in \
+ 	$(srcdir)/m4-macros $(top_srcdir)/lsb/lsb-rpm.spec.in AUTHORS \
+ 	COPYING COPYING.LIB ChangeLog INSTALL NEWS README compile \
+-	config.guess config.sub install-sh ltmain.sh missing
++	config.guess config.sub depcomp install-sh ltmain.sh missing
+ DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
+ distdir = $(PACKAGE)-$(VERSION)
+ top_distdir = $(distdir)
