@@ -26,7 +26,6 @@ PATCHES=(
     # https://aur.archlinux.org/packages/epson-inkjet-printer-escpr2/
     # Patch URL: https://aur.archlinux.org/cgit/aur.git/commit/?h=epson-inkjet-printer-escpr2&id=aca2e4ad5779471ea4c35768ec8db89d244a37c5
     "${FILESDIR}/gcc-no-implicit-function-declaration-1.2.10.patch"
-    "${FILESDIR}/makefile-1.2.13.patch"
 )
 
 src_configure() {
