@@ -4,7 +4,7 @@
 EAPI=8
 inherit autotools
 
-DSC_F="dsc/f/03/00/16/04/80/9eed4e48a994b2ce7d9c83aa7fa7766f2c2d7ef3"
+DSC_F="dsc/f/03/00/16/09/14/c8a5a61890bfdeeedc55cedd22e6eb320dc2f829"
 MY_PV="${PV}-1"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver"
