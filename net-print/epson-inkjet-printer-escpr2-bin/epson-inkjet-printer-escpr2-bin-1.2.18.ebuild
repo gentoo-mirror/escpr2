@@ -11,7 +11,9 @@ MY_PV="${PV}-1"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver binary package"
 HOMEPAGE="https://support.epson.net/linux/Printer/LSB_distribution_pages/en/escpr2.php"
-# the sources are often (delayed) also available from the EPSON driver download page: https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+# the sources are normally available from
+#     https://download.ebz.epson.net/dsc/search/01/search/?OSC=LX
+#     https://support.epson.net/linux/Printer/LSB_distribution_pages/en/escpr2.php
 SRC_URI="https://download3.ebz.epson.net/${DSC_F}/${MY_PN}-${MY_PV}.x86_64.rpm"
 LICENSE="EPSON-EULA LGPL-2.1"
 SLOT="0"
