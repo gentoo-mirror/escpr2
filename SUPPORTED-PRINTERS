@@ -1,4 +1,4 @@
-List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.2.18-r1:
+List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.2.20:
 
 Epson EC-4020 Series
 Epson EC-4030 Series
@@ -6,6 +6,8 @@ Epson EC-4040 Series
 Epson EC-C7000 Series
 Epson EM-C800BAM
 Epson EM-C800 Series
+Epson EM-C7100BAM
+Epson EM-C7100 Series
 Epson EP-50V Series
 Epson EP-879A Series
 Epson EP-880A Series
@@ -19,6 +21,8 @@ Epson EP-887A Series
 Epson EP-982A3 Series
 Epson EP-C800BAM
 Epson EP-C800 Series
+Epson EP-C7000BAM
+Epson EP-C7000 Series
 Epson ET-2830 Series
 Epson ET-2840 Series
 Epson ET-3700 Series
