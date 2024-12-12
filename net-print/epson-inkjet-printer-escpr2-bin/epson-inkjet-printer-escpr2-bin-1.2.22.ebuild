@@ -5,7 +5,7 @@ EAPI=7
 
 inherit rpm
 
-DSC_F="dsc/f/03/00/16/35/73/7a2e148a1b154ed22284d36bca513a0cdcfb1423"
+DSC_F="dsc/f/03/00/16/55/12/3e956f07217d2673b661423c8b746be9bc2b7705"
 MY_PN="epson-inkjet-printer-escpr2"
 MY_PV="${PV}-1"
 

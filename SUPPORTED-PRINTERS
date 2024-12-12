@@ -1,4 +1,4 @@
-List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.2.21:
+List of PostScript Printer Description files (PPDs) in epson-inkjet-printer-escpr2-1.2.22:
 
 Epson EC-4020 Series
 Epson EC-4030 Series
@@ -40,9 +40,13 @@ Epson ET-4850 Series
 Epson ET-5150 Series
 Epson ET-5170 Series
 Epson ET-5180 Series
+Epson ET-5185 Series
 Epson ET-5800 Series
+Epson ET-5805 Series
 Epson ET-5850 Series
+Epson ET-5855 Series
 Epson ET-5880 Series
+Epson ET-5885 Series
 Epson ET-8500 Series
 Epson ET-8550 Series
 Epson ET-8700 Series
@@ -50,8 +54,11 @@ Epson ET-14100 Series
 Epson ET-15000 Series
 Epson ET-16150 Series
 Epson ET-16600 Series
+Epson ET-16605 Series
 Epson ET-16650 Series
+Epson ET-16655 Series
 Epson ET-16680 Series
+Epson ET-16685 Series
 Epson ET-18100 Series
 Epson ET-M1140 Series
 Epson ET-M1170 Series
@@ -63,6 +70,7 @@ Epson ET-M3170 Series
 Epson ET-M3180 Series
 Epson ET-M16600 Series
 Epson ET-M16680 Series
+Epson ET-M16685 Series
 Epson EW-M530F Series
 Epson EW-M630T Series
 Epson EW-M634T Series
@@ -85,6 +93,7 @@ Epson L6270 Series
 Epson L6290 Series
 Epson L6460 Series
 Epson L6490 Series
+Epson L6499 Series
 Epson L6550 Series
 Epson L6570 Series
 Epson L6580 Series
