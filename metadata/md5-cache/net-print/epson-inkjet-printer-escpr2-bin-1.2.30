@@ -11,5 +11,5 @@ RDEPEND=net-print/cups !net-print/epson-inkjet-printer-escpr2
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://download3.ebz.epson.net/dsc/f/03/00/16/87/08/efe6e4bd11a0185207b75821db2b4c4be0904a2c/epson-inkjet-printer-escpr2-1.2.30-1.x86_64.rpm
-_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	7828cd38ff559545ca52f92064d0f8f4
+_eclasses_=estack	c61c368a76fdf3a82fdf8dbaebea3804	rpm	a07e59be6cf48ed85e624a41e8a7a832
 _md5_=4f2a136be7644e35b9074f3150b1bba9
