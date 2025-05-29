@@ -4,7 +4,7 @@
 EAPI=8
 inherit autotools
 
-DSC_F="dsc/f/03/00/16/87/11/e31ac59835b978b346e368fbaf95e603ea29ce11"
+DSC_F="dsc/f/03/00/17/16/24/38f92d2b09131df86ebf3451c65abe9bb3eeec9f"
 MY_PV="${PV}-1"
 
 DESCRIPTION="Epson ESC/P-R 2 generic Inkjet Printer Driver"
@@ -26,7 +26,7 @@ PATCHES=(
     # Shamelessly copied from:
     # https://aur.archlinux.org/packages/epson-inkjet-printer-escpr2/
     # Patch URL: https://aur.archlinux.org/cgit/aur.git/commit/?h=epson-inkjet-printer-escpr2&id=aca2e4ad5779471ea4c35768ec8db89d244a37c5
-    "${FILESDIR}/gcc-no-implicit-function-declaration-1.2.10.patch"
+    "${FILESDIR}/gcc-no-implicit-function-declaration-1.2.31-C23.patch"
 )
 
 src_prepare() {
