@@ -11,6 +11,10 @@ TMPDIR="/tmp"
 TARGZ_FILE="${TMPDIR}/${PN}-${MY_PV}.tar.gz"
 OUTFILE="SUPPORTED-PRINTERS"
 DL_TARGZ=
+if [[ -s "/var/cache/distfiles/${PN}-${MY_PV}.tar.gz" ]] ; then
+  echo "File alread in cache: ${PN}-${MY_PV}.tar.gz"
+  cp "/var/cache/distfiles/${PN}-${MY_PV}.tar.gz" "${TARGZ_FILE}"
+fi
 test ! -e "${TARGZ_FILE}" && DL_TARGZ=1
 test -n "${DL_TARGZ}" && wget -O "${TARGZ_FILE}" "${SRC_URI}"
 tar -xzf "$TARGZ_FILE" --strip-components=1 --wildcards --no-anchored 'NEWS'
